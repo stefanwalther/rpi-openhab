@@ -1,4 +1,5 @@
 # rpi-openhab
+
 An Raspberry Pi 2 Dockerfile for an Openhab Homeautomation Runtime.
 
-Please have a look at the [Docker-Hub](https://hub.docker.com/r/dhermanns/rpi-openhab/) Documentation of how to use the Docker Container.
+- Forked from [dhermanns/rpi-openhab](https://hub.docker.com/r/dhermanns/rpi-openhab/) for better 1.7.x support
