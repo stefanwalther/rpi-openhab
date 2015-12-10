@@ -6,7 +6,7 @@ MAINTAINER dhermanns <docker.hermanns@spamgourmet.com>
 
 RUN apt-get -y update
 RUN apt-get -y upgrade
-RUN apt-get -y install unzip supervisor wget
+RUN apt-get -y install unzip supervisor wget curl
 
 ENV OPENHAB_VERSION 1.7.1
 ENV MYOPENHAB_VERSION 1.7.0
