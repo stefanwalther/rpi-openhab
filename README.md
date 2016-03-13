@@ -1,6 +1,6 @@
 # rpi-openhab
 
-Raspberry PI 2 compatible Docker image with OpenHAB 1.7.1
+Raspberry PI 2 compatible Docker image with OpenHAB 1.8.1
 
 - Fork History:
   - Forked from [dhermanns/rpi-openhab](https://hub.docker.com/r/dhermanns/rpi-openhab/)
