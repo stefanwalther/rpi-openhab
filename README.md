@@ -34,13 +34,19 @@ Europe/Berlin
 
 - 3. Place everything else you normally put into the openhab configuration directory to `/home/pi/openhab` too.
 
+### Building
+
+```sh
+   docker build -t <name>/<image_name> .
+```
+
 ### Running
 
 - Configuration directory is expected to be mounted as a volume from the host to `/etc/openhab` in the container.
 - Example run command:
 
 ```sh
-docker run -d --name openhab -p 8080:8080 -v /home/pi/openhab:/etc/openhab --net host dhermanns/rpi-openhab
+docker run -d --name openhab -p 8080:8080 -v /home/pi/openhab:/etc/openhab --net host <name>/<image_name>
 ```
 
 ### Troubleshooting
